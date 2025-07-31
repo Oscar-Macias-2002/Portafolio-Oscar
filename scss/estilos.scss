@@ -1,0 +1,72 @@
+//--------------------------------------
+//        PALETA PERSONALIZADA
+//--------------------------------------
+$principal: #4A6278;     // Azul grisáceo de la camisa (color principal)
+$fondo: #F6F0E1;         // Color de fondo beige claro
+$texto: #2C2C2C;         // Color de texto oscuro suave
+
+//--------------------------------------
+//  SOBRESCRIBIENDO ESTILOS DE BOOTSTRAP
+//--------------------------------------
+.bg-primary {
+	background-color: $principal !important;
+}
+
+.text-primary {
+	color: $principal !important;
+}
+
+.btn-primary {
+	background-color: $principal !important;
+	border-color: darken($principal, 20%) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: darken($principal, 10%) !important;
+}
+
+.btn-primary:active {
+	background-color: darken($principal, 20%) !important;
+	border-color: darken($principal, 30%) !important;
+}
+
+.btn-primary:focus {
+	box-shadow: 0 0 0 0.2rem rgba($principal, .5) !important;
+}
+
+//--------------------------------------
+//           ESTILOS GENERALES
+//--------------------------------------
+html {
+	font-size: 13px;
+	background-color: $fondo;
+}
+
+body {
+	color: $texto;
+	font-family: "Open Sans", sans-serif;
+}
+
+// Tarjetas (cards)
+.card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+//--------------------------------------
+//         MEDIA QUERIES
+//--------------------------------------
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+html {
+  scroll-behavior: smooth;
+}
+

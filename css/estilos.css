@@ -1,0 +1,49 @@
+.bg-primary {
+  background-color: #4A6278 !important; }
+
+.text-primary {
+  color: #4A6278 !important; }
+
+.btn-primary {
+  background-color: #4A6278 !important;
+  border-color: #232e39 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #374858 !important; }
+
+.btn-primary:active {
+  background-color: #232e39 !important;
+  border-color: #101519 !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(74, 98, 120, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(74, 98, 120, 0.5) !important; }
+
+html {
+  font-size: 13px;
+  background-color: #F6F0E1; }
+
+body {
+  color: #2C2C2C;
+  font-family: "Open Sans", sans-serif; }
+
+.card {
+  border: none;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out; }
+  .card:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+html {
+  scroll-behavior: smooth; }
+
+/*# sourceMappingURL=estilos.css.map */
